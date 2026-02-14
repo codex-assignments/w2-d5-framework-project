@@ -25,6 +25,8 @@ body {
 .demo {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px;
 }
 
 img {
@@ -32,8 +34,20 @@ img {
     border-radius: 30px;
 }
 
-@media (width<1000px) {
+@media (width<1200px) {
     .demo{
         flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (width<800px) {
+    .demo{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    img{
+        width: 150px;
     }
 }
