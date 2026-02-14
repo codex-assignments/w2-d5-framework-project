@@ -11,7 +11,6 @@ add or fix a focus style for an interactive element
 Demonstrate responsive behavior at small, medium, and large breakpoints.
 Answer brief questions about the utilities and components you used.
 
-![alt text](image.png)
 
 Hello
 
