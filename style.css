@@ -1,4 +1,26 @@
+
+html {
+    /* change the root/parent font size will change the rem unit for children */
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+/* ROOT EM  */
+
+
+
 .wrapper {
     display: flex;
     justify-content: space-between;
+    border: 0.2rem solid black;
+    padding: 10em;
+    margin: calc(.25=10em);
+}
+
+img {
+    width: 20rem;
 }
